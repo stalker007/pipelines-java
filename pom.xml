@@ -47,5 +47,16 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+
+	<repository>
+  <id>godavarthisatish</id>
+  <url>https://pkgs.dev.azure.com/godavarthisatish/_packaging/godavarthisatish/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 	
 </project>
